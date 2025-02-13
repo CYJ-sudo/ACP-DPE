@@ -14,18 +14,18 @@ Cancer is a serious and complex disease caused by uncontrolled cell growth and i
 
 ## Dataset
 
-* ACP20mainTrain.csv: samples training set for the main dataset
-* ACP20mainTest.csv: samples testing set for the main dataset
-* ACP20altTrain.csv: samples training set for the alternate dataset
-* ACP20mainTest.csv: samples testing set for the alternate dataset
+* ACP20mainTrain.csv: samples training set for the main dataset.
+* ACP20mainTest.csv: samples testing set for the main dataset.
+* ACP20altTrain.csv: samples training set for the alternate dataset.
+* ACP20altTest.csv: samples testing set for the alternate dataset.
 
 ## robustness_test
 
-* processed_ACP20mainTrain_1.csv: training set samples after shuffling of amino acid residues of 1% positive samples from the main dataset
-* processed_ACP20mainTrain_2.csv: training set samples after shuffling of amino acid residues of 2% positive samples from the main dataset
-* processed_ACP20mainTrain_3.csv: training set samples after shuffling of amino acid residues of 3% positive samples from the main dataset
-* processed_ACP20mainTrain_4.csv: training set samples after shuffling of amino acid residues of 4% positive samples from the main dataset
-* processed_ACP20mainTrain_5.csv: training set samples after shuffling of amino acid residues of 5% positive samples from the main dataset
+* processed_ACP20mainTrain_1.csv: training set samples after shuffling of amino acid residues of 1% positive samples from the main dataset.
+* processed_ACP20mainTrain_2.csv: training set samples after shuffling of amino acid residues of 2% positive samples from the main dataset.
+* processed_ACP20mainTrain_3.csv: training set samples after shuffling of amino acid residues of 3% positive samples from the main dataset.
+* processed_ACP20mainTrain_4.csv: training set samples after shuffling of amino acid residues of 4% positive samples from the main dataset.
+* processed_ACP20mainTrain_5.csv: training set samples after shuffling of amino acid residues of 5% positive samples from the main dataset.
 
 ## Dependency
 

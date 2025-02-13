@@ -212,7 +212,7 @@ class CNN_gru(nn.Module):
 
 if __name__ == '__main__':
 
-    test_path = 'dataset\ACP20mainTest.csv'
+    test_path = 'dataset/ACP20mainTest.csv'
 
     x_test1, y_test1 = numerical_transform(test_path)
     x_test1 = np.array(x_test1)
@@ -227,7 +227,7 @@ if __name__ == '__main__':
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001, weight_decay=9e-03)
     criterion = nn.BCELoss()
 
-    model.load_state_dict(torch.load('model/model.pt')) 
+    model.load_state_dict(torch.load('model/main_model.pt')) 
 
     model.eval()
 
